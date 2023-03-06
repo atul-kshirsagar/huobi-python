@@ -6,8 +6,8 @@ import hashlib
 import base64
 import zlib 
 from datetime import datetime
-ACCESS_KEY = "0fc227f1-d0c40527-26ad1b5f-bgrdawsdsd"
-SECRET_KEY = "4566e0a1-f4244eec-7c72dbb4-3de62"
+ACCESS_KEY = ""
+SECRET_KEY = ""
 
 def on_message(ws, message):
     # message = zlib.decompress(message, 16+zlib.MAX_WBITS)
